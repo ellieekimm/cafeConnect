@@ -20,9 +20,9 @@ struct likedYouAudio: View {
                 .frame(width: 100, height: 80)
                 .padding(.bottom, 20)
         }
-        .padding([.leading, .trailing], 10)
-        .padding([.top, .bottom], 10)
-        .background(Color.gray)
+        .padding([.leading, .trailing], 20)
+        .padding([.top, .bottom], 15)
+        .background(Color("audioGray"))
         .cornerRadius(15)
     }
 }
