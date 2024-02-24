@@ -13,6 +13,14 @@
 		7B7430892B8A74BF00A82B3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7430882B8A74BF00A82B3C /* Preview Assets.xcassets */; };
 		7B7430902B8A750C00A82B3C /* audioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B74308F2B8A750C00A82B3C /* audioView.swift */; };
 		7B7430922B8A761800A82B3C /* likedYouAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7430912B8A761800A82B3C /* likedYouAudio.swift */; };
+		7B74309B2B8A844F00A82B3C /* New-Recording-114.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B74309A2B8A844F00A82B3C /* New-Recording-114.mp3 */; };
+		7B74309D2B8A857C00A82B3C /* PreviewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B74309C2B8A857C00A82B3C /* PreviewContent.swift */; };
+		7B74309F2B8A863F00A82B3C /* AudioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B74309E2B8A863F00A82B3C /* AudioViewModel.swift */; };
+		7B7430A22B8A86AD00A82B3C /* Profiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7430A12B8A86AD00A82B3C /* Profiles.swift */; };
+		7B7430A62B8A8B2E00A82B3C /* audioSoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7430A52B8A8B2E00A82B3C /* audioSoundView.swift */; };
+		7B7430A92B8A8ECA00A82B3C /* user-response.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B7430A82B8A8ECA00A82B3C /* user-response.mp3 */; };
+		7B7430AB2B8A902700A82B3C /* recruiterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7430AA2B8A902700A82B3C /* recruiterView.swift */; };
+		7B7430AD2B8A914400A82B3C /* profileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7430AC2B8A914400A82B3C /* profileView.swift */; };
 		C4B9A6542B8A7B390080C661 /* CompanyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9A6532B8A7B390080C661 /* CompanyPageView.swift */; };
 		C4B9A6562B8A7D040080C661 /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9A6552B8A7D040080C661 /* CompanyModel.swift */; };
 		C4B9A6582B8A82A60080C661 /* CompanyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9A6572B8A82A60080C661 /* CompanyCardView.swift */; };
@@ -28,6 +36,14 @@
 		7B7430882B8A74BF00A82B3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7B74308F2B8A750C00A82B3C /* audioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioView.swift; sourceTree = "<group>"; };
 		7B7430912B8A761800A82B3C /* likedYouAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = likedYouAudio.swift; sourceTree = "<group>"; };
+		7B74309A2B8A844F00A82B3C /* New-Recording-114.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "New-Recording-114.mp3"; sourceTree = "<group>"; };
+		7B74309C2B8A857C00A82B3C /* PreviewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContent.swift; sourceTree = "<group>"; };
+		7B74309E2B8A863F00A82B3C /* AudioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewModel.swift; sourceTree = "<group>"; };
+		7B7430A12B8A86AD00A82B3C /* Profiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profiles.swift; sourceTree = "<group>"; };
+		7B7430A52B8A8B2E00A82B3C /* audioSoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioSoundView.swift; sourceTree = "<group>"; };
+		7B7430A82B8A8ECA00A82B3C /* user-response.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "user-response.mp3"; sourceTree = "<group>"; };
+		7B7430AA2B8A902700A82B3C /* recruiterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recruiterView.swift; sourceTree = "<group>"; };
+		7B7430AC2B8A914400A82B3C /* profileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileView.swift; sourceTree = "<group>"; };
 		C4B9A6532B8A7B390080C661 /* CompanyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyPageView.swift; sourceTree = "<group>"; };
 		C4B9A6552B8A7D040080C661 /* CompanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
 		C4B9A6572B8A82A60080C661 /* CompanyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCardView.swift; sourceTree = "<group>"; };
@@ -67,6 +83,7 @@
 			children = (
 				C4B9A6502B8A7AD20080C661 /* User View */,
 				7B7430812B8A74BD00A82B3C /* cafeConnectApp.swift */,
+				7B74309C2B8A857C00A82B3C /* PreviewContent.swift */,
 				7B7430832B8A74BD00A82B3C /* ContentView.swift */,
 				7B7430932B8A78F600A82B3C /* Recruiter View */,
 				7B7430852B8A74BF00A82B3C /* Assets.xcassets */,
@@ -86,10 +103,25 @@
 		7B7430932B8A78F600A82B3C /* Recruiter View */ = {
 			isa = PBXGroup;
 			children = (
-				7B74308F2B8A750C00A82B3C /* audioView.swift */,
-				7B7430912B8A761800A82B3C /* likedYouAudio.swift */,
+				7B7430A72B8A8D1C00A82B3C /* Audio */,
+				7B7430A12B8A86AD00A82B3C /* Profiles.swift */,
+				7B74309A2B8A844F00A82B3C /* New-Recording-114.mp3 */,
+				7B7430A82B8A8ECA00A82B3C /* user-response.mp3 */,
 			);
 			path = "Recruiter View";
+			sourceTree = "<group>";
+		};
+		7B7430A72B8A8D1C00A82B3C /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				7B74308F2B8A750C00A82B3C /* audioView.swift */,
+				7B7430AC2B8A914400A82B3C /* profileView.swift */,
+				7B7430AA2B8A902700A82B3C /* recruiterView.swift */,
+				7B7430A52B8A8B2E00A82B3C /* audioSoundView.swift */,
+				7B7430912B8A761800A82B3C /* likedYouAudio.swift */,
+				7B74309E2B8A863F00A82B3C /* AudioViewModel.swift */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 		C4B9A6502B8A7AD20080C661 /* User View */ = {
@@ -171,6 +203,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B7430892B8A74BF00A82B3C /* Preview Assets.xcassets in Resources */,
+				7B74309B2B8A844F00A82B3C /* New-Recording-114.mp3 in Resources */,
+				7B7430A92B8A8ECA00A82B3C /* user-response.mp3 in Resources */,
 				7B7430862B8A74BF00A82B3C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,13 +216,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B7430A62B8A8B2E00A82B3C /* audioSoundView.swift in Sources */,
+				7B74309F2B8A863F00A82B3C /* AudioViewModel.swift in Sources */,
 				7B7430842B8A74BD00A82B3C /* ContentView.swift in Sources */,
+				7B74309D2B8A857C00A82B3C /* PreviewContent.swift in Sources */,
 				7B7430902B8A750C00A82B3C /* audioView.swift in Sources */,
 				C4B9A6542B8A7B390080C661 /* CompanyPageView.swift in Sources */,
 				C4B9A6582B8A82A60080C661 /* CompanyCardView.swift in Sources */,
 				7B7430922B8A761800A82B3C /* likedYouAudio.swift in Sources */,
 				C4B9A65D2B8A8E1C0080C661 /* PostingView.swift in Sources */,
 				C4B9A65B2B8A84A80080C661 /* CurrentPostingView.swift in Sources */,
+				7B7430A22B8A86AD00A82B3C /* Profiles.swift in Sources */,
+				7B7430922B8A761800A82B3C /* likedYouAudio.swift in Sources */,
+				7B7430AD2B8A914400A82B3C /* profileView.swift in Sources */,
+				7B7430AB2B8A902700A82B3C /* recruiterView.swift in Sources */,
 				7B7430822B8A74BD00A82B3C /* cafeConnectApp.swift in Sources */,
 				C4B9A6562B8A7D040080C661 /* CompanyModel.swift in Sources */,
 			);
@@ -323,7 +364,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"cafeConnect/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"cafeConnect/Preview Content\" \"/Users/Shreeya/Desktop/codingProjects/cafeConnect/cafeConnect/cafeConnect/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -340,7 +381,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,7 +392,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"cafeConnect/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"cafeConnect/Preview Content\" \"/Users/Shreeya/Desktop/codingProjects/cafeConnect/cafeConnect/cafeConnect/Preview Content\" \"cafeConnect/cafeConnect/cafeConnect/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -368,7 +409,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
