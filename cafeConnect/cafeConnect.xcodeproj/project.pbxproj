@@ -13,6 +13,11 @@
 		7B7430892B8A74BF00A82B3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7430882B8A74BF00A82B3C /* Preview Assets.xcassets */; };
 		7B7430902B8A750C00A82B3C /* audioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B74308F2B8A750C00A82B3C /* audioView.swift */; };
 		7B7430922B8A761800A82B3C /* likedYouAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7430912B8A761800A82B3C /* likedYouAudio.swift */; };
+		C4B9A6542B8A7B390080C661 /* CompanyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9A6532B8A7B390080C661 /* CompanyPageView.swift */; };
+		C4B9A6562B8A7D040080C661 /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9A6552B8A7D040080C661 /* CompanyModel.swift */; };
+		C4B9A6582B8A82A60080C661 /* CompanyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9A6572B8A82A60080C661 /* CompanyCardView.swift */; };
+		C4B9A65B2B8A84A80080C661 /* CurrentPostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9A65A2B8A84A80080C661 /* CurrentPostingView.swift */; };
+		C4B9A65D2B8A8E1C0080C661 /* PostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9A65C2B8A8E1C0080C661 /* PostingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		7B7430882B8A74BF00A82B3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7B74308F2B8A750C00A82B3C /* audioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioView.swift; sourceTree = "<group>"; };
 		7B7430912B8A761800A82B3C /* likedYouAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = likedYouAudio.swift; sourceTree = "<group>"; };
+		C4B9A6532B8A7B390080C661 /* CompanyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyPageView.swift; sourceTree = "<group>"; };
+		C4B9A6552B8A7D040080C661 /* CompanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
+		C4B9A6572B8A82A60080C661 /* CompanyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCardView.swift; sourceTree = "<group>"; };
+		C4B9A65A2B8A84A80080C661 /* CurrentPostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPostingView.swift; sourceTree = "<group>"; };
+		C4B9A65C2B8A8E1C0080C661 /* PostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,7 @@
 		7B7430802B8A74BD00A82B3C /* cafeConnect */ = {
 			isa = PBXGroup;
 			children = (
+				C4B9A6502B8A7AD20080C661 /* User View */,
 				7B7430812B8A74BD00A82B3C /* cafeConnectApp.swift */,
 				7B7430832B8A74BD00A82B3C /* ContentView.swift */,
 				7B7430932B8A78F600A82B3C /* Recruiter View */,
@@ -79,6 +90,26 @@
 				7B7430912B8A761800A82B3C /* likedYouAudio.swift */,
 			);
 			path = "Recruiter View";
+			sourceTree = "<group>";
+		};
+		C4B9A6502B8A7AD20080C661 /* User View */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9A6592B8A848A0080C661 /* Views */,
+				C4B9A6552B8A7D040080C661 /* CompanyModel.swift */,
+			);
+			path = "User View";
+			sourceTree = "<group>";
+		};
+		C4B9A6592B8A848A0080C661 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9A6532B8A7B390080C661 /* CompanyPageView.swift */,
+				C4B9A6572B8A82A60080C661 /* CompanyCardView.swift */,
+				C4B9A65A2B8A84A80080C661 /* CurrentPostingView.swift */,
+				C4B9A65C2B8A8E1C0080C661 /* PostingView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +184,13 @@
 			files = (
 				7B7430842B8A74BD00A82B3C /* ContentView.swift in Sources */,
 				7B7430902B8A750C00A82B3C /* audioView.swift in Sources */,
+				C4B9A6542B8A7B390080C661 /* CompanyPageView.swift in Sources */,
+				C4B9A6582B8A82A60080C661 /* CompanyCardView.swift in Sources */,
 				7B7430922B8A761800A82B3C /* likedYouAudio.swift in Sources */,
+				C4B9A65D2B8A8E1C0080C661 /* PostingView.swift in Sources */,
+				C4B9A65B2B8A84A80080C661 /* CurrentPostingView.swift in Sources */,
 				7B7430822B8A74BD00A82B3C /* cafeConnectApp.swift in Sources */,
+				C4B9A6562B8A7D040080C661 /* CompanyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
