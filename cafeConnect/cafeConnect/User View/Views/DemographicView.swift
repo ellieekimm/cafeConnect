@@ -19,7 +19,7 @@ struct DemographicView: View {
                 Text("Men")
                     .font(.headline)
                 Rectangle()
-                    .fill(Color.blue)
+                    .fill(Color.men)
                     .frame(width: menPercentage * 200 / maxPercentage, height: 30) // Adjust width based on percentage
                 Text("\(Int(menPercentage * 100))%")
                     .font(.caption)
@@ -29,7 +29,7 @@ struct DemographicView: View {
                 Text("Women")
                     .font(.headline)
                 Rectangle()
-                    .fill(Color.pink)
+                    .fill(Color.female )
                     .frame(width: womenPercentage * 200 / maxPercentage, height: 30) // Adjust width based on percentage
                 Text("\(Int(womenPercentage * 100))%")
                     .font(.caption)

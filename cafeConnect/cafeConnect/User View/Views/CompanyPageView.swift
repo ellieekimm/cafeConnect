@@ -20,9 +20,9 @@ struct CompanyPageView: View {
                 CompanyCardView(card: $card)
                     .padding([.horizontal])
                     .padding(.bottom, 20)
+    
             }
         }
-        .background(cardGradient)
     }
 }
 

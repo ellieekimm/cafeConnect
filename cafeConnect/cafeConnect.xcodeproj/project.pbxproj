@@ -32,6 +32,7 @@
 		C4B9A6652B8B08180080C661 /* CompanyQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9A6642B8B08180080C661 /* CompanyQuestionView.swift */; };
 		C4B9A6672B8B14A30080C661 /* voice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9A6662B8B14A30080C661 /* voice.swift */; };
 		C4B9A6692B8B157D0080C661 /* VoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B9A6682B8B157D0080C661 /* VoiceView.swift */; };
+		C4B9A66B2B8B20BB0080C661 /* maryQorvo.mov in Resources */ = {isa = PBXBuildFile; fileRef = C4B9A66A2B8B20BB0080C661 /* maryQorvo.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		C4B9A6642B8B08180080C661 /* CompanyQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyQuestionView.swift; sourceTree = "<group>"; };
 		C4B9A6662B8B14A30080C661 /* voice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voice.swift; sourceTree = "<group>"; };
 		C4B9A6682B8B157D0080C661 /* VoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceView.swift; sourceTree = "<group>"; };
+		C4B9A66A2B8B20BB0080C661 /* maryQorvo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = maryQorvo.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				C4B9A65E2B8AD01F0080C661 /* IMG_2768.mov */,
 				C4B9A6502B8A7AD20080C661 /* User View */,
 				7B7430812B8A74BD00A82B3C /* cafeConnectApp.swift */,
+				C4B9A66A2B8B20BB0080C661 /* maryQorvo.mov */,
 				7B74309C2B8A857C00A82B3C /* PreviewContent.swift */,
 				7B7430832B8A74BD00A82B3C /* ContentView.swift */,
 				7B7430932B8A78F600A82B3C /* Recruiter View */,
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4B9A65F2B8AD01F0080C661 /* IMG_2768.mov in Resources */,
+				C4B9A66B2B8B20BB0080C661 /* maryQorvo.mov in Resources */,
 				7B7430892B8A74BF00A82B3C /* Preview Assets.xcassets in Resources */,
 				7B74309B2B8A844F00A82B3C /* New-Recording-114.mp3 in Resources */,
 				7B7430A92B8A8ECA00A82B3C /* user-response.mp3 in Resources */,
