@@ -6,37 +6,23 @@
 //
 
 import SwiftUI
+import AVKit
+import AVFoundation
 
 struct CompanyPageView: View {
+    @State private var cards: [CompanyCard] = CompanyCard.data
+    let cardGradient = Gradient(colors: [Color.beige, Color.white])
+    
     var body: some View {
-        VStack(alignment: .leading){
-            Text("Quorvo")
-                .font(.title)
-                .fontWeight(.bold)
-            VStack(alignment: .leading){
-                VStack{
-                    Image(systemName: "waveform")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 320, height: 200)
-                        .padding(.bottom, 20)
-                    HStack {
-                        Image(systemName: "pause")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 100, height: 50)
-                        Image(systemName: "heart")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 100, height: 50)
-                    }
-                }
-                .padding(20)
-                .background(Color.gray)
-                .cornerRadius(15)
-                .padding(.bottom, 20)
+        ZStack {
+            
+            ForEach($cards) { $card in
+                CompanyCardView(card: $card)
+                    .padding([.horizontal])
+                    .padding(.bottom, 20)
             }
         }
+        .background(cardGradient)
     }
 }
 
